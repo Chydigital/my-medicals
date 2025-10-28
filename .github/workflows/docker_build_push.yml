@@ -36,5 +36,4 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-           ${{ secrets.DOCKERHUB_USERNAME }}/my-medicals:latest
-           debug-tag:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/my-medicals:latest
